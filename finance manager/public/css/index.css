@@ -1,0 +1,128 @@
+body{
+    background-color:  rgb(50, 50, 50);
+    margin: 0; 
+}
+
+header{
+    width: 100% - 25;
+    height: 80px;
+    font-size: 35px;
+    color: aliceblue;
+    background-color: rgb(27, 27, 27);
+    padding-left: 45px;
+    padding-right: 45px;
+    /* FLEX */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    /* FLEX */
+    display: flex;
+    align-items: center;
+}
+
+
+#box_1 {
+    font-size: 18px;
+    height: 45px;
+    width: 30%;
+    /*  */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#box_1 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+
+}
+
+#activity {
+    width: 33.3%;
+    /*  */
+    display: flex;
+    justify-content: center;
+}
+#categories {
+    width: 33.3%;
+}
+#report {
+    width: 33.3%;
+}
+
+#svg_header svg {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.icon {
+    height: 45px;
+    font-size: 16px;
+    color: aliceblue;
+    padding: 5px 12px 5px 6px;
+
+    background-color: rgb(27, 27, 27);
+
+    border: solid 1px rgb(27, 27, 27);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.icon:hover{border: solid 1px rgb(60, 60, 60);}
+.icon:active{background-color: rgb(50, 50, 50);}
+#icon {
+    height: 45px;
+    font-size: 16px;
+    color: aliceblue;
+    padding: 5px 12px 5px 6px;
+
+    background-color: rgb(27, 27, 27);
+
+    border: solid 1px rgb(27, 27, 27);
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+#icon:hover{border: solid 1px rgb(60, 60, 60);}
+#icon:active{background-color: rgb(50, 50, 50);}
+
+#icon svg {
+    width: 25px;
+    height: 25px;
+}
+#icon div {
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.btn {
+    background-color: rgb(50, 50, 50);
+    color: aliceblue;
+
+    border: solid rgb(27, 27, 27);
+    border-radius: 16px;
+}
+.btn:hover{background-color: rgb(60, 60, 60);}
+.btn:active{background-color: rgb(20, 20, 20);}
+
+#loginLink {
+    width: 12%;
+    height: 42%;
+    margin: 0px;
+
+    font-size: 40%;
+}

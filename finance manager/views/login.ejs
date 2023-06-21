@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <title>Finance Manager login</title>
+</head>
+<body>
+    <div class="header">
+        <header>
+            <a href="http://localhost:4000/">
+                <div id="svg_header"><%- include ("./svg/transaction.svg") %></div>
+                Finance.com
+            </a>
+        </header>
+    </div>
+
+    <div id="box_1" class="box">
+        <div class="box" id="loginFrame">
+            <div id="loginHeader">Authorization</div>
+            <div id="loginFrame_con">
+                <!-- login -->
+                <form class="auth" id="auth_login" method="post" action="/auth/login">
+
+                    <label for="email_inp">Email</label>
+                    <input type="email" id="email_inp" name="email" class="input" placeholder="email@mail.com">
+
+                    <label for="password_inp">Password</label>
+                    <input type="password" id="password_inp" name="password" class="input">
+
+                    <button class="btn" id="btn_login0" type="submit">Login</button>
+                </form>  
+                <!-- register -->
+                <button class="btn" id="reglink" type="submit" onclick="window.location.href='http://localhost:4000/register'">
+                    Registration
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <script src="../main.js"></script> -->
+</body>
+</html>
+
+
+
+
+<!-- <div class="auth" id="auth_register">
+    Registration
+    <button class="btn" id="btn_register0">Register</button> -->

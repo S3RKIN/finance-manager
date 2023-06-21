@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <title>Finance Manager login</title>
+</head>
+<body>
+    <div class="header">
+        <header>
+            <a href="http://localhost:4000/">
+                <div id="svg_header"><%- include ("./svg/transaction.svg") %></div>
+                Finance.com
+            </a>
+        </header>
+    </div>
+
+    <div id="box_1" class="box">
+        <div class="box" id="loginFrame">
+            <div id="loginHeader">Authorization</div>
+            <div id="loginFrame_con">
+                <!-- register -->
+                <form class="auth" id="auth_register" action="/auth/register" method="post">
+                    Full name
+                    <input type="text" name="fullName" class="input">
+                    Email
+                    <input type="email" class="input", name="email">
+                    Password
+                    <input type="password" class="input", name="password">
+                    
+                    <button  type="submit" class="btn" id="btn_register0">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+        <script src="../main.js"></script>
+</body>
+</html>
