@@ -24,7 +24,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 
 mongoose.connect(
-    'mongodb+srv://s3rkin:12344@finances.uy0vlmd.mongodb.net/blog?retryWrites=true&w=majority',
+    'mongodb+srv://link',
 ).then(() => console.log('db ok!'))
 .catch((err) => console.log('error!'))
 
